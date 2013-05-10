@@ -1,2 +1,2 @@
-claudijd.github.com
+claudijd.github.io
 ===================
