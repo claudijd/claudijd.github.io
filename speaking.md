@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Speaking
-permalink: /speaking/
+permalink: speaking
 comments: true
 ---
 

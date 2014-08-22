@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Vulnerabilities
-permalink: /vulnerabilities/
+permalink: vulnerabilities
 comments: true
 ---
 
