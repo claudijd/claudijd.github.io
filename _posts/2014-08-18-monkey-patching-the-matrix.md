@@ -187,4 +187,6 @@ On a more serious note, I think monkey patching, especially in the Ruby communit
 
 My goal here is not to encourage developers to increase their use of monkey patching but to make security professionals aware of its existence.  As an application security assessor, monkey patching can be an extremely useful tool in digging further into an application than was previously thought possible.  Achieving this level of depth is done by "bending reality" just like we did today in the Matrix examples so that you can do more than you ever thought you could - just like Neo.
 
+<iframe width="420" height="315" src="http://www.youtube.com/embed/aTL4qIIxg8A" frameborder="0" allowfullscreen></iframe>
+
 This was also posted on the SpiderLabs blog [here](http://blog.spiderlabs.com/2014/08/monkey-patching-the-matrix.html).
