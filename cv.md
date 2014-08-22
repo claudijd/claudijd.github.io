@@ -23,7 +23,7 @@ Leverage my experience, education, and passion to continue an exceptional career
 - Proficient in Perl
 - Familiarity with Python, Java, C++ (in that order)
 
-**Speaking Enagements**
+**Speaking Engagements**
 
 - See my [speaking page](/speaking/)
 
