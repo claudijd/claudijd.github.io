@@ -1,0 +1,19 @@
+# Site settings
+title: "Jonathan Claudius"
+email: "claudijd@yahoo.com"
+description: "This is my personal blog.  It's a place where I share ideas on topics I care about.  I consider this my skunkworks (TL;DR; - autonomy, unhampered by bureaucracy, advanced or secret projects)."
+baseurl: ""
+url: "http://claudijd.github.io/"
+twitter_username: claudijd
+github_username:  claudijd
+
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+
+# Build settings
+markdown: kramdown
+permalink: pretty
