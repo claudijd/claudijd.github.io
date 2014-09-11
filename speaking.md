@@ -8,6 +8,7 @@ Here are my speaking engagements past, present, and future...
 
 **2014**
 
+- **MassHackers** - Identifying Crimeware with Edit Distance
 - **MassHackers** - [Crowdsourcing Your Cisco Firewall Administration](https://speakerdeck.com/claudijd/crowdsourcing-your-cisco-firewall-administration-dot-dot-dot-wat)
 - **THOTCON** - [Crowdsourcing Your Cisco Firewall Administration](https://speakerdeck.com/claudijd/crowdsourcing-your-cisco-firewall-administration-dot-dot-dot-wat)
 
