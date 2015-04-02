@@ -6,6 +6,10 @@ comments: true
 
 Here are my speaking engagements past, present, and future...
 
+**2015**
+
+- **THOTCON** - [Trojaned Gems - You can’t tell you’re using one!](http://thotcon.org/speakers.html)
+
 **2014**
 
 - **MassHackers** - Identifying Crimeware with Edit Distance
