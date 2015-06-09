@@ -6,6 +6,10 @@ comments: true
 
 Here are some vulnerabilities I've found and responsibly disclosed:
 
+**2015**
+
+- [CVE-2015-3900](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-3900) - [Request Hijacking Vulnerability In RubyGems](https://www.trustwave.com/Resources/Security-Advisories/Advisories/TWSL2015-007/?fid=6356)
+
 **2014**
 
 - [CVE-2014-2126](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-2126) - [Cisco ASA ASDM Privilege Escalation Vulnerability (cisco-sa-20140409-asa)](http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20140409-asa)
