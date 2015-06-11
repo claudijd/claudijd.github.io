@@ -8,6 +8,8 @@ Here are my speaking engagements past, present, and future...
 
 **2015**
 
+- **OWASP Chicago** - Trojaned Gems - You can’t tell you’re using one!
+- **Beacon** - Trojaned Gems - You can’t tell you’re using one!
 - **THOTCON** - [Trojaned Gems - You can’t tell you’re using one!](http://thotcon.org/speakers.html)
 
 **2014**
