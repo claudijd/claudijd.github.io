@@ -2,3 +2,5 @@ _site
 _post.txt
 _page.txt
 _config.yml
+.ruby-gemset
+.ruby-version
