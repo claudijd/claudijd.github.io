@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/claudijd
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://claudijd.github.io
+  * I am claudijd (https://keybase.io/claudijd) on keybase.
+  * I have a public key with fingerprint 1FD7 08A0 7D24 D6AE F3CE  11F6 4BCD D990 313D FA87
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01015b45bfd41af8899c5d3f10314375caaba490f8f8d3c3a4d60602e67d0677e3940a",
+            "fingerprint": "1fd708a07d24d6aef3ce11f64bcdd990313dfa87",
+            "host": "keybase.io",
+            "key_id": "4bcdd990313dfa87",
+            "kid": "01015b45bfd41af8899c5d3f10314375caaba490f8f8d3c3a4d60602e67d0677e3940a",
+            "uid": "a606a7bbc24b9b457b9436d6cc24c119",
+            "username": "claudijd"
+        },
+        "service": {
+            "hostname": "claudijd.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1458326654,
+    "expire_in": 157680000,
+    "prev": "e13a7500f819f14e9daae67485fc4bd492fce77e90b9ba5734f7adfea5761168",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owGtUntQVFUcBkRISkEqyeEhXabJwW25d+97nSyaREJeMwlFqOu59567XB67y927
+KwiOA9Pg8BhRdMucaaDxgUmJlTxmBzdnaIBEQRB8NBLjoMCGmGTZmIKdpfqn6c/O
+P+ec3+/7vvP7vjn7ly/xC/HffOnGfuL1P/b693sFv+y7qZVlmGCVSjFjGVYAFzdY
+KEG7ZipQJMyI4QRO0AJFC7JEEUDmOJ4XaYmUCZwkKJKlRQAEQPG4zMmcRIokoCQG
+Z3ADZFgJZ1gWkjyFA0yHyYrFDFWbqlg0JEvIEotzAGclAyIAKJMiJAiZoQRRknge
+iZOSDDgWEfOsdh8DDScAO9QrVlRDF9PieP+B/5/ndizKAdQErCCIBkrgkSwr8BTJ
+SIyICiJB8D6gHaoWUAQRWiwEDknJl7DdOgxVnYoIfcH6nPwLoTcrWp5D+MuVTbVq
+VtFaiPp5mmazG318rdTmI+yEgulvKZOgWCSUJmI4oWpXrBbMSCCkqCk+bYKiOdLA
+MDSlw2CJTVGhSfEhaJbhcLR870AnkoTbCRKwNI4yIHiZoCAvAYD8Uxwti5QgUbxB
+FiGKgseRZ0CzJCWzQJIhOjIEwXCYz12xxYoZaTQnMCNNu2K2AM2hQmx3SHVAVKCf
+f4hf0NIA3z/zC1kW9s/nS7wT+tS851ZO+08JPft+jWive2paufP7K3MOtvc5d/3L
+y64FFFc0z7ud3iO/F7d1flnwdrfqTM6/vmQ0uZc7uy6aK7zv1Z1fuzQ4fTjL3v1k
+uHHkl/opOVAdaNBiVzWqb0RvnZ+dvL1yonYF17sLq6+2UdbAaJc9x13LlU+WwQ43
++7irKbi/qfvaj8lvlb17Mkn/mrSj5ttnvJU53wXtrTPqMh9YPmbP7ToQzRwPLr86
+kDJ1+ofPBz4snR38OZZbv29FjBLz6OLl0jOrNrIp6X1RVY8ysINlRK0wH33VNTiU
+9YH7k/6GmAV8Up+R5Ngev+beNGht+aqtyzP2mAnP/WwwJrFi5nj1N4aLW45lBXX0
+nCpouZlQk3j68KUb6f6N4x4uMnR+LqeoYSGbnjjzmyM05vJUVutEwN17jZs8upL8
++0cWOsaKnq8eUtb2dURVNXVhX6i1cKjOdbPPM5PW3TDQmXYrdUPCNn1/Sc559txQ
+eIp3pCRzev2p/OGazlcflm9ZzuzJ9Xjiymu8zQdPmis3BT8MM5/ITg2jmk0vJDlG
+x17cejii17QuvvNCwugdV5ztSuxt97P0oQuyujp+w9x4eER+xacPXnqTOBr7zkzb
+K50nqFa4Oi2j/frwWdf7I5vz4qZNaWuOHnNu7DHI2LbcTO2jWVer80Dke3rnjp4n
+X7fYIyur0jtax/8E
+=Avpm
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/claudijd
+
+==================================================================
+
