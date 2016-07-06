@@ -6,6 +6,10 @@ comments: true
 
 Here are my speaking engagements past, present, and future...
 
+**2016**
+
+- **OWASP Maine** - Hostile Domain Takeover Vulnerabilities
+
 **2015**
 
 - **OWASP Chicago** - Trojaned Gems - You can’t tell you’re using one!
