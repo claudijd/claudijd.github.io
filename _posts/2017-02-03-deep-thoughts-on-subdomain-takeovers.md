@@ -54,6 +54,8 @@ Once you have this list, you also need to maintain it and add/remove vendors fro
 
 From an automation perspective, you might also be able to take these known list of providers and profile the behavior that each vendor demonstrates when the domain is unclaimed (usually a 403/404 error of some type, but not always) and then create an escalation internally to trigger some human action.  In cases where your service provider list is rather finite this is a good stategy, but in cases where your organization is decentralized, this can be a harder task to manage.  In any case, these actions are IMO a stop gap until shared hosting providers evolve enough to solve the claiming problem within their specific implementation.
 
+Another, and maybe this isn't always an obvious option, is to start applying pressure on the shared hosting providers we use to ensure that they have controls in place to ensure that domain claiming can only be done by authorized claimers.  This could be something that could easily be added to a vendor questionaire to start socializing the explicit need for service providers to address this issue.
+
 **Other ways to skin this cat?**
 
 I'll be the first one to say that I don't consider myself the source of truth and wisdom for anything.  I'm merely sharing my thoughts on this subject openly to help others understand and perhaps get other like-minded folks contributing to the discussion so we can better solve this problem for the community at large.  If you have ideas, email me and let me know what you think.  If it seems like a good strategy, I'd be happy to update this post to reflect that shared knowledge.
