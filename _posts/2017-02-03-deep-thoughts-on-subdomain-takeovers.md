@@ -59,3 +59,5 @@ Another, and maybe this isn't always an obvious option, is to start applying pre
 **Other ways to skin this cat?**
 
 I'll be the first one to say that I don't consider myself the source of truth and wisdom for anything.  I'm merely sharing my thoughts on this subject openly to help others understand and perhaps get other like-minded folks contributing to the discussion so we can better solve this problem for the community at large.  If you have ideas, email me and let me know what you think.  If it seems like a good strategy, I'd be happy to update this post to reflect that shared knowledge.
+
+**[UPDATE] 02/06/2017** - I wrote a follow up article on [Preventing Subdomain Takeovers for Shared Hosting Providers]({{ base }}/2017/02/06/preventing-subdomain-takeover/)
