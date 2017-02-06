@@ -11,7 +11,7 @@ In this post, I'd like to outline in a bit more detail how a given shared hostin
 
 Shared hosting providers don't have a mechanism to know whether **subscriber A** is authoritative for claiming VHOSTs on a specific domain.  This means that even though **subscriber B** is not authoritative for "blog.example.com" they may be able to exercise a first-to-claim, last-to-claim, or claim control bypass attack on that particular provider resulting in a subdomain takeover vulnerability.  This works because **subscriber A** already has their DNS for "blog.example.com" pointing to the shared hosting providers servers.  The impact here is that **subscriber B** now controls all the content for that particular site and can inflict confidentiality, integrity, and availability impacts on **subscriber A's** subdomain.  Examples can include but are not limited to hosting offensive content on the affected domain (porn, hate speach, etc.), eliciting secrets from the user (prompting for authentication), or subjecting the user to client-side vulnerabilities (a browser zero-day).
 
-**What could subscribers do to solve for this?**
+**What could shared hosting providers do to solve for this?**
 
 A rather simple but effective mechanism could be to use DNS to determine who is authoritative to claim a given VHOST on a given shared hosting provider.  Let's work through this example as proving grounds...
 
