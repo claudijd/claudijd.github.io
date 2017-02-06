@@ -3,7 +3,7 @@ title: "Preventing Subdomain Takeovers for Shared Hosting Providers"
 layout: post
 ---
 
-Last Friday, I wrote a somewhat off the cuff post capturing my "deep thoughts" on [Subdomain Takeover Vulnerabilities]({{ base }}/2017/02/03/deep-thoughts-on-subdomain-takeovers/) and received an overwhelming amount of interest on the subject, which is exciting.  In that post I eluded to some ideas about re-using patterns seen within the ACME protocol to perform subdomain ownership verification.
+Last Friday, I wrote a somewhat off the cuff post capturing my "deep thoughts" on [Subdomain Takeover Vulnerabilities]({{ base }}/2017/02/03/deep-thoughts-on-subdomain-takeovers/) and received an overwhelming amount of interest on the subject, which is exciting.  In that post, I eluded to some ideas about re-using patterns seen within the ACME protocol to perform subdomain ownership verification.
 
 In this post, I'd like to outline in a bit more detail how a given shared hosting provider might seek to prevent this issue on their platform.  I'm going to keep it relatively generic and abstract from any specific provider implementation in the hope that this approach (or something similar) is adaptable enough to fit the needs of most service providers.
 
