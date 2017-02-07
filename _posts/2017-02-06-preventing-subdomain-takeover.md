@@ -36,7 +36,7 @@ As with any simple solution, there are a set of limitations/challenges to overco
 - Shared hosting providers would need to implement code that performs this verification step, which includes development time on their platform and behavior changes need to be communicated to their user base.
 - Shared hosting providers would need to deal with pre-existing claims and have a time window in which an unverified claim becomes invalid if no action is taken to perform a verified claim.
 - In the case of free shared hosting providers they would need to weigh the risk reward of reduced sign-up/conversion rates of subscribers using their platform with the added verification steps (instead of the instant success provided by an unverified claim process)
-- In the case of a DNS response poisening attack (via cache or MiTM), there could be potential for an attacker to use this process to claim a domain for which they are unauthorized for.
+- In the case of a DNS response poisoning attack (via cache or MiTM), there could be potential for an attacker to use this process to claim a domain for which they are unauthorized for.
 
 **Feedback?**
 
