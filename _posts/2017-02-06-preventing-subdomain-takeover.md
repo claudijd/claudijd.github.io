@@ -27,7 +27,7 @@ If **subscriber A** wanted to claim ownership for "blog.example.com" they would 
 
 The shared hosting provider would then instruct subscriber A that they need to create a DNS [TXT record](https://en.wikipedia.org/wiki/TXT_record) for blog.example.com that returned text content of the above mentioned HMAC.  Once **subscriber A** adds said record, they can then complete the claiming process for that domain by verifying the DNS TXT record is present and correct.
 
-If **subscriber B**, who is not authorized to claim "blog.example.com", attempts to claim this domain they will get to the point in the provisioning process where they are given the subscriber specific HMAC to implement in DNS.  **subscriber B's** attempt to claim this domain will be thwarted as **subscriber B** does not control DNS records for example.com.  This addresses first-to-claim, last-to-claim, and some bypass scenarios I've seen in the wild with shared hosting providers.
+If **subscriber B**, who is not authorized to claim "blog.example.com", attempts to claim this domain they will get to the point in the provisioning process where they are given the subscriber specific HMAC to implement in DNS.  **subscriber B's** attempt to claim this domain will be thwarted as **subscriber B** does not control DNS records for example.com.  This could address first-to-claim, last-to-claim, and some bypass scenarios I've seen in the wild with shared hosting providers.
 
 **Caveats**
 
@@ -41,3 +41,5 @@ As with any simple solution, there are a set of limitations/challenges to overco
 **Feedback?**
 
 I've tried above to outline what I think are the problem, the solution, and the challenges.  If you have other ideas or things I have not yet considered that affect stakeholders in an unverified subdomain claiming model, please let me know.  I'd like to know what about this proposal works and more importantly what doesn't work so it can be ammended as a viable path forward for shared hosting providers.
+
+**[UPDATE] 02/07/2017** - In discussing this issue with colleages more, we have determined the most common scenario for domain takeovers is when a VHOST becomes unclaimed (likely do to a partial decommission process) and leaves a dangling DNS entry intact.  Another pattern here for service providers attempting to prevent this type of takeover would be for the service provider to require that the DNS A record for "blog.example.com" be removed or no longer pointed at the service provider before the VHOST claim can be lifted.  This very simple procedure could work well for retroactive protection and virtually eliminate a whole class-type of takeover vulnerabilities with relatively minimal impact to end users.
