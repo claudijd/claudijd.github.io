@@ -9,7 +9,7 @@ Here are my speaking engagements past, present, and future...
 **2016**
 
 - **OWASP Maine** - [Hostile Domain Takeover Vulnerabilities](https://www.meetup.com/OWASP-Maine/events/232091151/)
-- **BSides Lisbon** - [Lessons Learned from a Bug Bounty Operator](http://www.bsideslisbon.org/speakers/#9)
+- **BSides Lisbon** - [Lessons Learned from a Bug Bounty Operator](https://www.bsideslisbon.org/2016/speakers/#9)
 
 **2015**
 
