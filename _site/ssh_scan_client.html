@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&amp;skin=sunburst&amp;lang=css" defer></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<script>
+
+// Tasks a scan to the API
+function requestScan(target, callback) {
+    $.post("https://sshscan.rubidus.com/api/v1/scan?target=".concat(target), callback)
+}
+
+// Requests scan status/results from the API
+function requestScanResult(uuid, callback) {
+    $.get("https://sshscan.rubidus.com/api/v1/scan/results?uuid=".concat(uuid), callback)
+}
+
+// Let end user specify the target they want to scan
+var target = location.search.split('target=')[1]
+
+// Default back to ssh.mozilla.com if they just hit the page
+if (target == null){
+  var target = "ssh.mozilla.com";
+}
+
+// Task the scan to the API
+$("body").append("<pre>[+] Tasking Scan for ".concat(target, "</pre>"));
+requestScan(target, function(data) {
+    $("body").append("<pre>[+] Got scan UUID: ".concat(data.uuid, '</pre>'));
+
+    // Continue to poll the API every second until it returns scan results
+    function doPoll() {
+        requestScanResult(data.uuid, function(data) {
+            if (data.ssh_scan_version) {
+                $("body").append("<pre>[+] Got scan result</pre>");
+                $("body").append('<pre><code class="JSON">'.concat(JSON.stringify(data, undefined, 2), '</code></pre>'));
+            } else {
+                // wait for 1 sec, then retry
+                setTimeout(doPoll, 1000);
+            }
+        })
+    }
+    doPoll();
+});
+</script>
+</body>
+</html>
