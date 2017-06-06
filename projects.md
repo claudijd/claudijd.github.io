@@ -6,8 +6,8 @@ comments: true
 
 Here's a list of open-source software projects I'm actively involved in...
 
-- **[ssh_scan](https://github.com/claudijd/ssh_scan)** - A SSH configuration and policy scanner (command-line)
-- **[ssh_scan_api](https://github.com/claudijd/ssh_scan_api)** - A SSH configuration and policy scanner (API)
+- **[ssh_scan](https://github.com/mozilla/ssh_scan)** - A SSH configuration and policy scanner (command-line)
+- **[ssh_scan_api](https://github.com/mozilla/ssh_scan_api)** - A SSH configuration and policy scanner (API)
 - **[c7decrypt](https://github.com/claudijd/c7decrypt)** - A Ruby-based implementation of a Cisco Type-7 Password Encryptor/Decryptor
 - **[PacketFu](https://github.com/packetfu/packetfu)** - A mid-level packet manipulation library for Ruby
 - **[Metasploit](https://github.com/rapid7/metasploit-framework)** - A framework used to exploit computers and stuff
