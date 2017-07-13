@@ -55,7 +55,7 @@ I also like that as soon as I'm done with my scan and type exit, all the state i
 
 Overall, I'd like to encourage people to make their own decisions on options for scanning, but I can see now why this is useful in the context of anonymized port scanning with TOR...
 
-- **-sT (connect scans)** - this essentially means that our NMAP scanner is performing full TCP 3-way handshakes.  This is useful in the TOR space because we're going through a proxy here, and I'm not really sure if -sS would have done the trick.
+- **-sT (connect scans)** - this essentially means that our NMAP scanner is performing full TCP 3-way handshakes.  This is useful in the TOR space because we're going through a proxy here. -sS still works, but I wanted to be absolutely sure.
 - **-n (don't resolve PTRs)** - there are two reasons for this (1) we don't want to make the scans any slower by hanging up on unnecessary DNS calls and (2) we don't want to take the risk of potentially having those DNS requests not go through TOR.
 - **-PN (don't do ping scanning)** - there are two reasons for this (1) we don't want to make the scans  any slower  and (2) we don't want to miss hosts if they don't respond to ICMP.
 
