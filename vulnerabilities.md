@@ -8,7 +8,7 @@ Here are some vulnerabilities I've found and responsibly disclosed:
 
 **2017**
 
-- [Remote Code Execution in Mercurial via forcecommand wrapper abuse](https://www.mercurial-scm.org/wiki/WhatsNew#Mercurial_4.1.3_.282017-4-18.29) - [Metasploit Module](https://github.com/rapid7/metasploit-framework/pull/8263)
+- [Remote Code Execution in Mercurial via forcecommand wrapper abuse](https://hackerone.com/reports/222020) - [CVE-2017-9462](https://nvd.nist.gov/vuln/detail/CVE-2017-9462)
 
 **2015**
 
