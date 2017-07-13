@@ -6,6 +6,10 @@ comments: true
 
 Here are my speaking engagements past, present, and future...
 
+**2017**
+
+- **OWASP Maine** - [OWASP Maine July 2017 Financial Report](https://speakerdeck.com/claudijd/owasp-maine-july-2017-financial-report)
+
 **2016**
 
 - **OWASP Maine** - [Hostile Domain Takeover Vulnerabilities](https://www.meetup.com/OWASP-Maine/events/232091151/)
