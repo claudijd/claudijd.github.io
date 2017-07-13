@@ -51,10 +51,12 @@ I was hoping this would be a little more challenging or involved, but alas, it w
 
 I also like that as soon as I'm done with my scan and type exit, all the state is magically erased from history without needing to take snapshots or restore things to a prestine state.  It's not only given me ideas how to better anonymize myself, but also how I can spin up quick and easy testing environments that are easier to replicate and throw away when I'm done with them.
 
-[UPDATE] 07/13/2017 - @breakersall had a good point on twitter that I should make a point as to why the '-sT -n -PN' were essential as part of this process.  First of all, the intent of the post is not to educate people on how to do their NMAP scans, but I agree there are actually good reasons for using those that I glossed over.
+[UPDATE] 07/13/2017 - [Matt Kelly](https://twitter.com/breakersall/status/885498096213479424) had a good point on twitter that I should make a point as to why the '-sT -n -PN' were essential as part of this process.  First of all, the intent of the post is not to educate people on how to do their NMAP scans, but I agree there are actually good reasons for using those that I glossed over.
 
 Overall, I'd like to encourage people to make their own decisions on options for scanning, but I can see now why this is useful in the context of anonymized port scanning with TOR...
 
 - -sT (connect scans) - this essentially means that our NMAP scanner is performing full TCP 3-way handshakes.  This is useful in the TOR space because we're going through a proxy here, and I'm not really sure if -sS would have done the trick.
 - -n (don't resolve PTRs) - there are two reasons for this (1) we don't want to make the scans any slower by hanging up on unnecessary DNS calls and (2) we don't want to take the risk of potentially having those DNS requests not go through TOR.
 - -PN (don't do ping scanning) - there are two reasons for this (1) we don't want to make the scans  any slower  and (2) we don't want to miss hosts if they don't respond to ICMP.
+
+If you're interested in other ways to optimize your NMAP scans through TOR, I would defer you to the excellent [NMAP docs](https://nmap.org/docs.html).
