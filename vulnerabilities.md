@@ -9,6 +9,7 @@ Here are some vulnerabilities I've found and responsibly disclosed:
 **2017**
 
 - [Remote Code Execution in Mercurial via forcecommand wrapper abuse](https://hackerone.com/reports/222020) - [CVE-2017-9462](https://nvd.nist.gov/vuln/detail/CVE-2017-9462)
+- [Open Redirect in mozilla-django-oidc](https://github.com/mozilla/mozilla-django-oidc/blob/master/HISTORY.rst#031-2017-06-15)
 
 **2015**
 
