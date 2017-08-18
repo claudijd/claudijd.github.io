@@ -8,6 +8,7 @@ Here are my speaking engagements past, present, and future...
 
 **2017**
 
+- **MozFest 2017**? [still waiting on CFP, *crossed-fingers*](https://mozillafestival.org/)
 - **OWASP Maine** - [OWASP Maine July 2017 Financial Report](https://speakerdeck.com/claudijd/owasp-maine-july-2017-financial-report)
 
 **2016**
