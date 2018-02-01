@@ -49,3 +49,19 @@ In short, I think host header injections that result in an immediate 301 basical
 ## Pedantic EOF/Concession/Add-On ##
 
 I wanted to add one additional qualifying note that there can be cases where an application dynamically builds page content based on the content of the host header supplied by the client (these are often not the 301 scenarios I described above).  However, this behavior is generally considered a bad practice, and I would argue further that the inbound vector to exploit such a vulnerability is limited by the ability of an attacker to influence a users host header.  I will also concede that in some cases the application could be horrifically bad and present other risks, but in those cases I would argue that it's likely server-side risk and at that point the attacker could do whatever they want without needing to open redirect users (assuming they weren't chaining with other vuln classes).  If you're interested in reading more on the server-side risks, please checkout [@albinowax](https://twitter.com/albinowax)'s post on practical http host header attacks [here](http://www.skeletonscribe.net/2013/05/practical-http-host-header-attacks.html).
+
+## UPDATE: but what about cache poisoning? (yikes, thanks internet/albinowax!) ##
+
+One of the things I'd like to add some clarity on is the subject of cache poisoning.  It's an often overlooked space and it wasn't until I re-read [@albinowax](https://twitter.com/albinowax)'s post did I fully have an appreciation for how this would play out.  I will note that such a scenario requires some form of intermediate caching service and a lack of proper caching headers set that would instruct the CDN to cache those responses, but I feel strongly enough that this is the most logical vector of attack on a header injection via 301/302, that it deserves more lip service.
+
+The attack would basically cut out trying to convince a client to request a malformed host header and repeat the host header injection attack from the attacker machine.  It would result in the same basic behavior as we described above (perhaps instead the injection point is X-Forwarded-Host/Referrer in this context), but the attacker is depending on the CDN/equivalent to cache the response such that when a legitimate user makes a request to / in this case that they receive this poisened response...
+
+```
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html
+Location: https://google.com/
+Content-Length: 178
+Connection: Close
+```
+
+Here's a response from CloudFlare on this subject stating that they will cache 301/302's unless [they explicitly told not to cache the response](https://support.cloudflare.com/hc/en-us/articles/200168326-Are-301-and-302-redirects-cached-by-Cloudflare-).  So, to be clear, assuming the cache provider is willing to cache responses for requests with two entirely different host headers (I'm not sure how CloudFlare handles this or how other providers would handle this), then could be a viable vector of attack using just a host (or close equivalent) header injection and a 301, but it's something that needs to be addressed via response cache headers and/or with the caching provider.
