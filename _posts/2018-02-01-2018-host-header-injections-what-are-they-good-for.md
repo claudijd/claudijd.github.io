@@ -3,6 +3,8 @@ title: "Host header injections: what are they good for?"
 layout: post
 ---
 
+_**UPDATED** : Please note that my perspective has changed since the initial writing of this post. Later sections reflect my current understanding of the bugs exploitability and the earlier sections represent my prior understanding._
+
 In the last couple weeks, I've noticed a increase in host header injection vulnerabilities being found/discussed and there a lot of questions swirling around "what can you do with them?".  I somewhat attribute this increase to more users finding Burp, doing a scan, and not fully understanding the impact of these vulns before they report them.  I've also seen [bug bounty programs award researchers](https://hackerone.com/reports/94637) for bounties for these vulns, which effectively chum the water and create a false sense of legitimacy.  In this short post, I wanted to quickly capture my current thoughts on this, as it's one of those things that looks bad on the surface (an attacker reflecting header content on your site, ZOMGWTFBBQ), but maybe it's not as bad as you think.
 
 ## What's a Host Header Injection? ##
