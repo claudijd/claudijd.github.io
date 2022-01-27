@@ -50,3 +50,14 @@ Here's some moon-shot goals that I'm focused on now that I've got some of the ba
 - Invest all surplus income into income producing assets (eg. Market/Real-Estate/Businesses)
 - Grow networth > 25% annually (double portfolio every ~3 years)
 - Become financially independant within 5-years (investments cover all expenses)
+
+
+## Accountability Updates - Last Updated: Jan 2022 ##
+
+Year-1: +41% growth
+Year-2: +37% growth
+
+Continuing to follow the strategy aboved, keeping expenses low, all surplus is invested is income producing assets, growth has been averaging 13% above target for 2 years, and financial independance target is projected earlier than originally anticipated.
+
+
+
