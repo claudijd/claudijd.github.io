@@ -19,7 +19,7 @@ Here's a few bright spots from my tenure:
 - Traveling around the world and getting to explore new cultures with my coworkers and now friends
 - The compassion of my coworkers while I suffered through multiple personal tragedies
 - Working with multiple product teams to define and execute on security visions for their products
-- The ability to not where pants in meetings, and no one is the wiser ;)
+- The ability to not wear pants in meetings, and no one is the wiser ;)
 - Being able to constructively challenge leadership, and it not being a career limiting move
 - Learning how to work through complex situations that put equally important equities in direct tension
 - Getting my first mohawk with a few folks on my team, including my boss!
