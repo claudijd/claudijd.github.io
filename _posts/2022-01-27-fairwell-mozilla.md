@@ -7,7 +7,7 @@ After 6+ years at Mozilla, this week will be my last.
 
 It's been a humbling experience and has been far from an easy journey, but I wouldn't trade this experience for anything.
 
-What I'll miss the most is the people. Mozilla has this ability to attract a certain caliber of talent that I've just not seen replicated anywhere else.  There's just this underdog spirit and ability for folks to punch far above their weight that continues to inspire me do more and be more.
+What I'll miss the most is the people. Mozilla has this ability to attract a certain caliber of talent that I've just not seen replicated anywhere else.  There's just this underdog spirit and ability for folks to punch far above their weight that continues to inspire me to do more and be more.
 
 Here's a few bright spots from my tenure:
 
